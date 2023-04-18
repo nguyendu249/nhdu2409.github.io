@@ -7,6 +7,13 @@
     width: 1200px;
     margin: auto;
 }
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #23262F;
+    text-decoration: none;
+    padding-top: 32px;
+}
 /* .logovdca-section {
     position: absolute;
     left: -7.5%;
@@ -127,7 +134,7 @@ main > .banner {
     display: flex;
     justify-content: space-between;
 }
-.column {
+.column-small-banner {
     width: 291px;
     height: 174px;
 }
@@ -187,15 +194,19 @@ main > .banner {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding: 24px 0;
 
 }
-.textblue {
+.section-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
     font-size: 16px;
     color: #23262F;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none !important;
 }
-.homedesc {
+.about-text {
+    margin-top: 12px;
     font-size: 13px;
     color: #777E91;
 }
@@ -214,4 +225,86 @@ main > .banner {
     width: 792px;
     height: 1378px;
 }
+.sidebar-ads {
+    width: 384px;
+}
+.sidebar-ads .ads {
+    padding: 32px 0 20px;
+}
+.sidebar-ads .ads img {
+    border-radius: 8px;
+}
+
+.title-up-comming {
+    font-size: 20px;
+    padding: 32px 0;
+}
+.frame-up-comming {
+    
+}
+.post-up-comming {
+    display: flex;
+    gap: 12px;
+    padding: 6px 0;;
+}
+
+.calendar {
+    width: 80px;
+    height: 92px;
+    border: 1px solid #ccc;;
+    border-radius: 8px;
+}
+.rectangle-month {
+    background-color: #F93939;
+    color: #F4F5F6;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    height: 36px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.rectangle-day {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content-up-comming {
+    width: 292px;
+    height: 76px;
+}
+.content-up-comming > a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #23262F;
+    line-height: 20px;
+}
+.content-up-comming > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #777E91;
+    line-height: 16px;
+}
+
+.video-content {
+    padding: 24px 0;
+}
+
+.image-list .image-column img {
+    width: 123px;
+    height: 74px;
+    border-radius: 4px;
+}
+
+.notices-list {
+    padding: 10px;
+}
+
+.banner-news > a > img {
+    border-radius: 8px;
+}
+
+
 
